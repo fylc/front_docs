@@ -1,0 +1,30 @@
+{
+  "name": "vuepress-docs-build",
+  "version": "1.0.0",
+  "description": "前端知识文档库",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fylc/front_docs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fylc/front_docs/issues"
+  },
+  "homepage": "https://github.com/fylc/front_docs#readme",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.9.7",
+    "vuepress": "^1.9.7",
+    "vuepress-plugin-auto-sidebar": "^2.3.2"
+  },
+  "dependencies": {
+    "vuepress-plugin-demo-container": "^0.2.0"
+  }
+}
